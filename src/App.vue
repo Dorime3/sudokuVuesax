@@ -6,7 +6,7 @@
         <h1 class="main-title">
           Решалкин судоку
         </h1>
-        <div style="display: inline-block; margin: 5px 0 0 10px">
+        <div class="sudoku-actions">
           <vs-tooltip shadow bottom not-hover v-model="showInfo">
             <vs-button
                 icon
@@ -376,6 +376,11 @@ body {
 .main-title {
   font-family: 'Amatic SC', cursive;
   font-size: 48px;
+}
+
+.sudoku-actions {
+  display: inline-block;
+  margin: 5px 0 0 10px
 }
 
 .content-tooltip .body {
