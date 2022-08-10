@@ -4,7 +4,7 @@
     <div class="sudoku-wrapper">
       <div style="display: flex; align-items: center">
         <h1 class="main-title">
-          Решалкин судок
+          Решалкин судоку
         </h1>
         <div style="display: inline-block; margin: 5px 0 0 10px">
           <vs-tooltip shadow bottom not-hover v-model="showInfo">
